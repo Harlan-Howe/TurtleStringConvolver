@@ -10,7 +10,7 @@ public class TurtlePanel extends JPanel
     private int distance;
     private String instructions;
     private boolean turtleIsVisible;
-    private Color lineColor, turtleColor;
+    private Color startLineColor, lineColor, turtleColor;
     private int turtleSize;
 
     public final int NORTH = 0;
@@ -27,7 +27,7 @@ public class TurtlePanel extends JPanel
         distance = 30;
         instructions = "";
         turtleIsVisible = true;
-        lineColor = Color.PINK;
+        startLineColor = Color.PINK;
         turtleColor = Color.GREEN;
         turtleSize = 20;
         setBackground(Color.BLACK);
@@ -42,6 +42,7 @@ public class TurtlePanel extends JPanel
         xLoc = getWidth()/2;
         yLoc = getHeight()/2;
         heading = NORTH;
+        lineColor = startLineColor;
 
         //TODO #0: loop through all the characters in the "instructions" variable.
         //       Every time you encounter 'L' or 'l', turnLeft();
@@ -141,9 +142,9 @@ public class TurtlePanel extends JPanel
         repaint();
     }
 
-    public void setLineColor(Color lineColor)
+    public void setStartLineColor(Color lineColor)
     {
-        this.lineColor = lineColor;
+        this.startLineColor = lineColor;
         repaint();
     }
 
