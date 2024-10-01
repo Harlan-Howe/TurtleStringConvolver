@@ -13,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Harlan-Howe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Harlan-Howe/TurtleStringConvolver.git",
+    "accountId": "855922e7-8812-4cdf-bb02-85d7ac86c997"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="yg6osiy8" />
   </component>
@@ -30,8 +42,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "idea.background.frame": "/Users/harlan.howe/Pictures/Rey & Finn.png,100,plain,center",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
