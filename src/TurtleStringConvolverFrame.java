@@ -245,7 +245,7 @@ public class TurtleStringConvolverFrame extends JFrame implements ActionListener
     {
         if (evt.getSource()==lineColorChooserButton && (((String)evt.getPropertyName()).equals("myColor")))
         {
-            turtle.setLineColor((Color)evt.getNewValue());
+            turtle.setStartLineColor((Color)evt.getNewValue());
         }
         if (evt.getSource()==turtleColorChooserButton && (((String)evt.getPropertyName()).equals("myColor")))
         {
